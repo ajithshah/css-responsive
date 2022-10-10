@@ -3,6 +3,7 @@ import React from 'react'
 const Card = () => {
   return (
     <div className='container'>
+    <p>Card</p>
       <div className="row">
         <div className="col-sm-4">
           <div class="card" >

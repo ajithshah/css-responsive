@@ -2,6 +2,9 @@ import Navbar from './navbar'
 import Form from './form'
 import Head from 'next/head'
 import Card from './card'
+import Breadcrumb from './breadcrumb'
+import Button from './button'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -17,6 +20,8 @@ export default function Home() {
       <Navbar/>
       <Card/>
       <Form/>
+      <Breadcrumb />
+      <Button />
     </div>
   )
 }
