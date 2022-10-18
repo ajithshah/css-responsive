@@ -4,7 +4,6 @@ import Head from 'next/head'
 import Card from './card'
 import Breadcrumb from './breadcrumb'
 import Button from './button'
-import Carousel from './Carousel'
 
 import styles from '../styles/Home.module.css'
 
@@ -23,7 +22,6 @@ export default function Home() {
       <Form/>
       <Breadcrumb />
       <Button />
-      <Carousel />
     </div>
   )
 }
